@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "command": [
+    "C:\\Users\\woziji\\mingw64\\bin\\gcc.exe",
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic",
+    "-IF:\\project\\industrial-environment-inspection\\stm32\\tests\\mock",
+    "-IF:\\project\\industrial-environment-inspection\\stm32\\tests",
+    "-IF:\\project\\industrial-environment-inspection\\stm32\\SoftwarePackage\\Projects\\99_Applications\\996_AI_Product_Inspection\\Appli\\Core\\Inc",
+    "F:\\project\\industrial-environment-inspection\\stm32\\SoftwarePackage\\Projects\\99_Applications\\996_AI_Product_Inspection\\Appli\\Core\\Src\\inspection_core.c",
+    "F:\\project\\industrial-environment-inspection\\stm32\\SoftwarePackage\\Projects\\99_Applications\\996_AI_Product_Inspection\\Appli\\Core\\Src\\inspection_can.c",
+    "F:\\project\\industrial-environment-inspection\\stm32\\tests\\imx6ull_inspect.c",
+    "F:\\project\\industrial-environment-inspection\\stm32\\tests\\test_can_backend.c",
+    "-lm",
+    "-o",
+    "F:\\project\\industrial-environment-inspection\\stm32\\reports\\test_can_backend.exe"
+  ],
+  "output": "PASS RNG failure is explicit, retries safely, nonzero session survives CAN recovery\nPASS v2 classic framing, session and simulation flag, completion distinct from enqueue\nPASS FIFO full retains results, no-ACK timeout retains head, ordered retry without double count\nPASS bus-off recovery retains queue and boot session\nPASS bounded overflow drops newest, retained 128 results drain in order\nPASS timeout and retry across tick wrap\nPASS HAL submission/status/init failures and invalid clock/result rejection\n",
+  "scope": "Real CAN backend with mocked HAL; NOT a physical bus test"
+}

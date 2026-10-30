@@ -1,0 +1,8 @@
+build/
+drivers/*.o
+drivers/*.ko
+drivers/*.mod.c
+drivers/.*.cmd
+drivers/Module.symvers
+drivers/modules.order
+drivers/.tmp_versions/

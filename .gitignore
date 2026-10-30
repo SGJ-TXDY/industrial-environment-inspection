@@ -1,0 +1,18 @@
+# Build outputs and local tools
+**/build/
+**/__pycache__/
+**/.metadata/
+**/.DS_Store
+**/Thumbs.db
+stm32/tools/toolchain/
+stm32/reports/*.exe
+*.tar.gz
+*.zip
+*.7z
+*.bak
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key

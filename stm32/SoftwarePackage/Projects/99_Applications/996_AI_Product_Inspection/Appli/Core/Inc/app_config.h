@@ -1,0 +1,17 @@
+#ifndef __APP_CONFIG_H
+#define __APP_CONFIG_H
+#include "stm32n6xx_hal.h"
+#include "inspection_config.h"
+#define LCD_BG_WIDTH 480
+#define LCD_BG_HEIGHT 480
+#define LCD_FG_WIDTH 800
+#define LCD_FG_HEIGHT 480
+#define CAMERA_MIRROR_FLIP CMW_MIRRORFLIP_MIRROR
+#define NN_WIDTH INSPECTION_INPUT_WIDTH
+#define NN_HEIGHT INSPECTION_INPUT_HEIGHT
+#define NN_FORMAT DCMIPP_PIXEL_PACKER_FORMAT_RGB888_YUV444_1
+#define NN_BPP 3
+#define NN_CLASSES 3
+#define NN_CLASSES_TABLE {"EMPTY", "NORMAL", "DEFECT"}
+#define NN_OUTPUT_NUMBER 1
+#endif

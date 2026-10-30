@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-30",
+  "tests": {
+    "host_tests": true,
+    "can_backend_tests": true,
+    "can_simulation_tests": true,
+    "camera_buffer_tests": true
+  },
+  "firmware_builds": [
+    "Appli/Simulation",
+    "Appli/SimulationFlash",
+    "Appli/Production",
+    "FSBL/Release"
+  ],
+  "receiver_matches_current_source": true,
+  "receiver_sha256": "f283e036566dc3f2ff640cb20d02dc96f55f3ab6da54c6a99c929fe2ea52a7eb",
+  "protocol_version": 2,
+  "queue_capacity": 128,
+  "hardware_tested": false,
+  "real_inspection_model_supplied": false,
+  "signed_boot_images_prepared": false,
+  "original_stm32_modified": false,
+  "imx6ull_project_modified": false,
+  "changed_or_added_source_files": [
+    "docs/ACCEPTANCE.md",
+    "docs/CAN_PROTOCOL.md",
+    "docs/INTEGRATION.md",
+    "README.md",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Inc/inspection_can.h",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Inc/inspection_config.h",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Inc/inspection_core.h",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Inc/stm32n6xx_hal_conf.h",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Src/app.c",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Src/inspection_can.c",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/Appli/Core/Src/inspection_core.c",
+    "SoftwarePackage/Projects/99_Applications/996_AI_Product_Inspection/STM32CubeIDE/Appli/.project",
+    "tests/imx6ull_inspect.c",
+    "tests/imx6ull_inspect.h",
+    "tests/inspect.h",
+    "tests/mock/main.h",
+    "tests/test_can_backend.c",
+    "tests/test_inspection.c",
+    "tools/run_host_tests.py"
+  ],
+  "limitations": [
+    "8-bit random session may collide",
+    "RAM queue is not persistent",
+    "No application-layer ACK",
+    "Linux currently ignores simulation heartbeat flag"
+  ]
+}

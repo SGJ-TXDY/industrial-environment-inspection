@@ -1,0 +1,5 @@
+build/
+tools/toolchain/
+reports/*.exe
+**/__pycache__/
+**/.metadata/

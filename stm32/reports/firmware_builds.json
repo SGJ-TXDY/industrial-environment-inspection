@@ -1,0 +1,38 @@
+[
+  {
+    "part": "Appli",
+    "configuration": "Simulation",
+    "compiled_units": 80,
+    "compiler": "F:\\15-STM32N647_AI\\.build-tools\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "elf": "F:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\Simulation\\996_AI_Product_Inspection_Appli.elf",
+    "size": "   text\t   data\t    bss\t    dec\t    hex\tfilename\n 116988\t    684\t2237156\t2354828\t 23ee8c\tF:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\Simulation\\996_AI_Product_Inspection_Appli.elf\n",
+    "hardware_tested": false
+  },
+  {
+    "part": "Appli",
+    "configuration": "SimulationFlash",
+    "compiled_units": 80,
+    "compiler": "F:\\15-STM32N647_AI\\.build-tools\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "elf": "F:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\SimulationFlash\\996_AI_Product_Inspection_Appli.elf",
+    "size": "   text\t   data\t    bss\t    dec\t    hex\tfilename\n 106388\t    684\t2236804\t2343876\t 23c3c4\tF:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\SimulationFlash\\996_AI_Product_Inspection_Appli.elf\n",
+    "hardware_tested": false
+  },
+  {
+    "part": "Appli",
+    "configuration": "Production",
+    "compiled_units": 80,
+    "compiler": "F:\\15-STM32N647_AI\\.build-tools\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "elf": "F:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\Production\\996_AI_Product_Inspection_Appli.elf",
+    "size": "   text\t   data\t    bss\t    dec\t    hex\tfilename\n 106420\t    684\t2236804\t2343908\t 23c3e4\tF:\\project\\imx6ull\\information\\work\\stm32\\build\\Appli\\Production\\996_AI_Product_Inspection_Appli.elf\n",
+    "hardware_tested": false
+  },
+  {
+    "part": "FSBL",
+    "configuration": "Release",
+    "compiled_units": 34,
+    "compiler": "F:\\15-STM32N647_AI\\.build-tools\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe",
+    "elf": "F:\\project\\imx6ull\\information\\work\\stm32\\build\\FSBL\\Release\\996_AI_Product_Inspection_FSBL.elf",
+    "size": "   text\t   data\t    bss\t    dec\t    hex\tfilename\n  33560\t     12\t   2980\t  36552\t   8ec8\tF:\\project\\imx6ull\\information\\work\\stm32\\build\\FSBL\\Release\\996_AI_Product_Inspection_FSBL.elf\n",
+    "hardware_tested": false
+  }
+]

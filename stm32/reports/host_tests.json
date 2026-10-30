@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "compiler": "C:\\Users\\woziji\\mingw64\\bin\\gcc.exe",
+  "command": [
+    "C:\\Users\\woziji\\mingw64\\bin\\gcc.exe",
+    "-std=c11",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic",
+    "-IF:\\project\\industrial-environment-inspection\\stm32\\SoftwarePackage\\Projects\\99_Applications\\996_AI_Product_Inspection\\Appli\\Core\\Inc",
+    "-IF:\\project\\industrial-environment-inspection\\stm32\\tests",
+    "F:\\project\\industrial-environment-inspection\\stm32\\SoftwarePackage\\Projects\\99_Applications\\996_AI_Product_Inspection\\Appli\\Core\\Src\\inspection_core.c",
+    "F:\\project\\industrial-environment-inspection\\stm32\\tests\\imx6ull_inspect.c",
+    "F:\\project\\industrial-environment-inspection\\stm32\\tests\\test_inspection.c",
+    "-lm",
+    "-o",
+    "F:\\project\\industrial-environment-inspection\\stm32\\reports\\test_inspection.exe"
+  ],
+  "seconds": 0.125,
+  "output": "PASS strict 49/50/51ms boundary and no empty recount\nPASS defect latch and conservative low-confidence decision\nPASS uncertain/interrupted and missing-frame gap handling\nPASS timer/sequence wrap, one-shot fault closure, NaN and duplicate frame rejection\nPASS exact protocol examples, real IMX6ULL parser, duplicate/loss/restart/offline\nPASS 10-minute virtual replay: 12000 frames, 600 items, NORMAL=480 DEFECT=120 REVIEW=60, MISSED/DUP/BAD=0\nALL TESTS PASSED\n",
+  "scope": "Host logic and byte-level receiver interoperability; NOT on-board camera/NPU/CAN validation"
+}
